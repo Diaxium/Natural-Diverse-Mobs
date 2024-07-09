@@ -1,0 +1,18 @@
+[versions]
+# Architectury Version
+architectury_version = "9.2.14"
+
+# Forge Version
+forge_version = "1.20.1-47.3.5"
+
+[libraries]
+
+# Architectury Forge
+architectury = { module = "dev.architectury:architectury-forge", version.ref = "architectury_version" }
+
+# Forge
+forge = { module = "net.minecraftforge:forge", version.ref = "forge_version" }
+
+[bundles]
+
+[plugins]

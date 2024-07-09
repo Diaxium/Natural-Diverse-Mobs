@@ -1,0 +1,14 @@
+architectury {
+    common(rootProject.enabled_platforms.split(","))
+}
+
+dependencies {
+    modImplementation fabric.loader
+    modApi libs.architectury
+
+    // Resourceful Config
+    modImplementation libs.resourcefulconfig
+
+    // Resourceful Lib
+    modImplementation libs.resourcefullib
+}

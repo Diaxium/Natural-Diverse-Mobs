@@ -1,0 +1,21 @@
+[versions]
+# Architectury Version
+architectury_version = "9.2.14"
+
+# Resourcefull Lib
+resourceful_lib = "2.1.25"
+
+# Resourcefull Config
+resourceful_config = "2.1.2"
+
+[libraries]
+
+# Architectury Common
+architectury = { module = "dev.architectury:architectury", version.ref = "architectury_version" }
+
+# Resourcefull Lib
+resourcefullib = { module = "com.teamresourceful.resourcefullib:resourcefullib-common-1.20.1", version.ref = "resourceful_lib" }
+
+# Resourcefull Config
+resourcefulconfig = { module = "com.teamresourceful.resourcefulconfig:resourcefulconfig-common-1.20.1", version.ref = "resourceful_config" }
+

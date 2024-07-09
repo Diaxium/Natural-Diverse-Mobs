@@ -1,10 +1,29 @@
 pluginManagement {
     repositories {
-        maven {
-            name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
-        }
-        mavenCentral()
+        maven { url "https://maven.fabricmc.net/" }
+        maven { url "https://maven.architectury.dev/" }
+        maven { url "https://maven.minecraftforge.net/" }
+
         gradlePluginPortal()
     }
 }
+
+
+dependencyResolutionManagement {
+    versionCatalogs {
+        libs {
+            from(files("./common/libs.versions.toml"))
+        }
+        fabric {
+            from(files("./fabric/libs.versions.toml"))
+        }
+        forge {
+            from(files("./forge/libs.versions.toml"))
+        }
+    }
+}
+
+
+include("common")
+include("fabric")
+include("forge")

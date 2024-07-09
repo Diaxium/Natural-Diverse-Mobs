@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "natural_diverse_mobs",
+  "version": "${version}",
+
+  "name": "Natural-Diverse-Mobs",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "github.diaxium.natural_diverse_mobs.fabric.Natural_Diverse_MobsFabric"
+    ]
+  },
+  "mixins": [
+    "natural_diverse_mobs.mixins.json",
+    "natural_diverse_mobs-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.20.1"
+  }
+}
