@@ -9,7 +9,7 @@
 **Description:**
 ---------------
 
-Natural Diverse Mobs is a Minecraft mod that builds upon the foundations of "More Mob Variants" (CC0 1.0 Universal), expanding and enhancing the concept of diverse mob variants. This mod adds fresh features to mobs, including dynamic skin colors and environmental interactions. 
+Natural Diverse Mobs is a Minecraft mod that builds upon the foundations of "More Mob Variants" (CC0 1.0 Universal), expanding and enhancing the concept of diverse mob variants. This mod adds fresh features to mobs, including dynamic skin colors and environmental interactions.
 
 **Origin:**
 -----------
@@ -20,14 +20,14 @@ This mod is a continuation of "More Mob Variants", which was originally develope
 ------------
 
 * **Diverse mob skins**: Experience a more realistic and immersive game world with our diverse skin textures, including:
-	+ Cat: Gray Tabby, Doug, Handsome, Misty, Ravenwood, Sandstorm, Sundown
-	+ Chicken: Amber, Bronzed, Gold Crested, Midnight, Skewbald, Stormy, Amber, Cinnamon, Ginger, Honey
-	+ Skeleton: Nether-spawned, Banshee, Cursed, Darkwatch, Echo
-	+ Cow: Ashen, Cookie, Dairy, Pinto, Sunset, Umbra, Wooly, Dawn, Ember, Lumin, Mocha
-	+ Pig: Mottled, Piebald, Pink Footed, Sooty, Spotted, Bramble, Clay, Fallow, Gizmo
-	+ Sheep: Fuzzy, Patched, Rocky, Cloud, Frost, Lichen, Misty
-	+ Wolf: Husky, Brown, German Shepherd, Golden Retriever/Shiba Inu, French Bulldog/Pug, Arctic, Blaze, Cinder, Denali
-	+ Zombie: Apex, Cairn, Frostbite, Ghoul, Husk, Mire, Raven, Specter, Vesper, Wraith
+	+ Cat: Siamese, Ragdoll, Persian, Nebelung, Munchkin, Manx, Maine Coon, Himalayan, Cymric, Chartreux, American Bobtail, Bombay, Balinese
+	+ Chicken: Jaerhon, Golden Comet, Cream Legbar, Cinnamon Queen, Black Copper Marans, Andalusian, Austra White, ISA Brown
+	+ Skeleton:
+	+ Cow: Dexter, Belted Galloway, Highland, Salers, Shorthorn, Simmental, Texas Longhorn, Gelbvieh, Limousine, Charolais, Jersey, Hereford, Red Angus, Holstein, Black Angus
+	+ Pig:
+	+ Sheep:
+	+ Wolf:
+	+ Zombie:
 * **Dynamic environmental interactions**: Mobs now interact with their environment in new and exciting ways.
 * **Persistent variant skins**: Skins are persistent across all players, ensuring a consistent experience.
 * **Compatibility with popular mod loaders**: Works seamlessly with Fabric, Quilt, Forge, and NeoForge.
