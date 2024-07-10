@@ -4,9 +4,11 @@
   "version": "${version}",
 
   "name": "Natural-Diverse-Mobs",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Natural Diverse Mobs is a Minecraft mod that builds upon the foundations of \"More Mob Variants\" (CC0 1.0 Universal), expanding and enhancing the concept of diverse mob variants. This mod adds fresh features to mobs, including dynamic skin colors and environmental interactions.",
+  "authors": ["Diaxium"],
+  "contact": {
+    "homepage": "https://github.com/Diaxium/Natural-Diverse-Mobs"
+  },
 
   "license": "CC0-1.0",
 
@@ -14,6 +16,9 @@
   "entrypoints": {
     "main": [
       "github.diaxium.natural_diverse_mobs.fabric.Natural_Diverse_MobsFabric"
+    ],
+    "modmenu": [
+      "github.diaxium.natural_diverse_mobs.fabric.integration.modmenu.Modmenu"
     ]
   },
   "mixins": [
@@ -23,5 +28,18 @@
   "depends": {
     "fabricloader": ">=0.15.11",
     "minecraft": ">=1.20.1"
+  },
+  "custom": {
+    "mc-publish": {
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "dependencies": [
+        "fabric-api(required){modrinth:P7dR8mSH}{curseforge:306612}",
+        "resourcefullib(required){modrinth:G1hIVOrD}{curseforge:570073}",
+        "resourcefulconfig(required){modrinth:M1953qlQ}{curseforge:714059}"
+      ]
+    }
   }
 }

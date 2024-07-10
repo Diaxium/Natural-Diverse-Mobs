@@ -16,10 +16,21 @@ configurations {
 }
 
 dependencies {
+    // Architectury
+    modApi fabric.architectury
+
+    // Fabric
     modImplementation fabric.loader
     modApi fabric.api
-    // Remove the next line if you don't want to depend on the API
-    modApi fabric.architectury
+
+    // ModMenu Api
+    modImplementation fabric.modmenuapi
+
+    // Resourceful Lib
+    modImplementation fabric.resourcefullib
+
+    // Resourceful Config
+    modImplementation fabric.resourcefulconfig
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }

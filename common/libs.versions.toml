@@ -19,3 +19,6 @@ resourcefullib = { module = "com.teamresourceful.resourcefullib:resourcefullib-c
 # Resourcefull Config
 resourcefulconfig = { module = "com.teamresourceful.resourcefulconfig:resourcefulconfig-common-1.20.1", version.ref = "resourceful_config" }
 
+[bundles]
+
+[plugins]

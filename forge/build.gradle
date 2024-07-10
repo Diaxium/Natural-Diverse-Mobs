@@ -25,6 +25,12 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi forge.architectury
 
+    // Resourceful Lib
+    modImplementation forge.resourcefullib
+
+    // Resourceful Config
+    modImplementation forge.resourcefulconfig
+
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 }

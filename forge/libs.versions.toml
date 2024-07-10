@@ -5,6 +5,12 @@ architectury_version = "9.2.14"
 # Forge Version
 forge_version = "1.20.1-47.3.5"
 
+# Resourcefull Lib
+resourceful_lib = "2.1.25"
+
+# Resourcefull Config
+resourceful_config = "2.1.2"
+
 [libraries]
 
 # Architectury Forge
@@ -12,6 +18,12 @@ architectury = { module = "dev.architectury:architectury-forge", version.ref = "
 
 # Forge
 forge = { module = "net.minecraftforge:forge", version.ref = "forge_version" }
+
+# Resourcefull Lib
+resourcefullib = { module = "com.teamresourceful.resourcefullib:resourcefullib-forge-1.20.1", version.ref = "resourceful_lib" }
+
+# Resourcefull Config
+resourcefulconfig = { module = "com.teamresourceful.resourcefulconfig:resourcefulconfig-forge-1.20.1", version.ref = "resourceful_config" }
 
 [bundles]
 

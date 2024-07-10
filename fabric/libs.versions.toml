@@ -8,6 +8,15 @@ fabric_loader_version = "0.15.11"
 # Fabric Api Version
 fabric_api_version = "0.92.2+1.20.1"
 
+# Mod Menu Version
+mod_menu_version = "7.1.0"
+
+# Resourcefull Lib
+resourceful_lib = "2.1.25"
+
+# Resourcefull Config
+resourceful_config = "2.1.2"
+
 [libraries]
 
 # Architectury Fabric
@@ -18,6 +27,15 @@ loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric_loader_v
 
 # Fabric Api
 api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric_api_version" }
+
+# ModMenu Api
+modmenuapi = { module = "com.terraformersmc:modmenu", version.ref = "mod_menu_version" }
+
+# Resourcefull Lib
+resourcefullib = { module = "com.teamresourceful.resourcefullib:resourcefullib-fabric-1.20.1", version.ref = "resourceful_lib" }
+
+# Resourcefull Config
+resourcefulconfig = { module = "com.teamresourceful.resourcefulconfig:resourcefulconfig-fabric-1.20.1", version.ref = "resourceful_config" }
 
 [bundles]
 

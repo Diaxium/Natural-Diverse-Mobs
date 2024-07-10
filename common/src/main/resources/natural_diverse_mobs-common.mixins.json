@@ -1,8 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "github.diaxium.natural_diverse_mobs.mixin",
+  "package": "github.diaxium.natural_diverse_mobs.mixins",
   "compatibilityLevel": "JAVA_17",
+  "plugin": "github.diaxium.natural_diverse_mobs.implementation.MixinPlugin",
   "mixins": [
   ],
   "client": [

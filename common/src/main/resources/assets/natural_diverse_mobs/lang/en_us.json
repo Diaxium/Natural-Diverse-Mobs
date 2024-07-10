@@ -1,0 +1,24 @@
+{
+  "settings.natural_diverse_mobs.pigs_settings": "Pig Settings",
+
+  "settings.natural_diverse_mobs.pigs_settings.pig_diversity": "Enable Pig Diversity",
+  "settings.natural_diverse_mobs.pigs_settings.pig_diversity.comment": "Allow the diversity of pigs, disabling this will prevent Natural Diverse Mobs from making any changes to pigs.",
+
+  "settings.natural_diverse_mobs.pigs_settings.gets_muddy": "Enable Muddy Pigs",
+  "settings.natural_diverse_mobs.pigs_settings.gets_muddy.comment": "Should pigs get down and dirty, with a coat that's caked in mud?",
+
+  "settings.natural_diverse_mobs.pigs_settings.gets_slushy": "Enable Slushy Pigs",
+  "settings.natural_diverse_mobs.pigs_settings.gets_slushy.comment": "Should pigs appear covered in snow, ice, and water, with a coat that's wet, bedraggled?",
+
+  "settings.natural_diverse_mobs.pigs_settings.gets_dusty": "Enable Pigs To Get Dusty",
+  "settings.natural_diverse_mobs.pigs_settings.gets_dusty.comment": "Should pigs appear dusty and dry, as if they've been rolling in the desert sand?",
+
+  "settings.natural_diverse_mobs.pigs_settings.gets_scorched": "Enable Scorched Pigs",
+  "settings.natural_diverse_mobs.pigs_settings.gets_scorched.comment": "Should pigs appear severely heat-stressed, with blistered skin, bleached coats?",
+
+  "settings.natural_diverse_mobs.pigs_settings.domesticated_pigs": "Enable Domesticated Pigs",
+  "settings.natural_diverse_mobs.pigs_settings.domesticated_pigs.comment": "Should pigs be tameable and domesticated, allowing players to befriend and care for them?",
+
+  "settings.natural_diverse_mobs.pigs_settings.domestication_level": "Domestication Level",
+  "settings.natural_diverse_mobs.pigs_settings.domestication_level.comment": "Set the level of domestication for pigs, from simple tameness to full-fledged farm friends."
+}
